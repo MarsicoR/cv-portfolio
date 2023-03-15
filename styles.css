@@ -6,7 +6,7 @@
     color: aliceblue;
 }
 body{
-    background-image: linear-gradient(rgba(126, 126, 126, 0.5),rgba(126, 126, 126, 0.5)), url(../cv-portfolio/backround.jpg);
+    background-image: linear-gradient(rgba(126, 126, 126, 0.5),rgba(126, 126, 126, 0.5)), url(../cv-portfolio/fond.jpg);
     background-size: cover;
     background-attachment: scroll;
     margin: 0px;
@@ -219,6 +219,7 @@ footer{
 .accueil_lycee{
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
 }
 .accueil_lycee img{
     border: 5px solid rgb(240, 248, 250);
