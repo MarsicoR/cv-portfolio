@@ -236,3 +236,19 @@ footer{
     color: rgb(240, 248, 250);
     transition: .4s;
 }
+.portfo section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: auto;
+}
+.portfo section img{
+    border: 5px solid rgb(240, 248, 250);
+    height: 200px;
+    width: 200px;
+}
+.portfo section article{
+    align-items: center;
+}
