@@ -12,6 +12,7 @@ body{
     background-attachment: scroll;
     margin: 0px;
     padding: 0px;
+    text-align: justify;
 }
 
 header{
@@ -299,12 +300,12 @@ footer{
 }
 
 .portfo p{
-    padding-top: 50px;
     margin-left : 50px;
     margin-right : 50px;
 }
 
 .portfo h2{
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
 }

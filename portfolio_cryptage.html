@@ -23,17 +23,18 @@
             </ul>
         </nav>
         <main class="portfo">
+            <h2><a href="cv-portfolio_portfolio.html">Retour</a></h2>
             <p>
                 Ce projet avait pour objectif de réussir à crypter un message dans une image à l'aide des pixels de cette dernière. 
-                Pour cela, j'ai transformé chaque caractères du message à crypter en binaire en respectant les normes UTF-8, j'ai 
+                Pour cela, j'ai transformé chaque caractère du message à crypter en binaire en respectant les normes UTF-8, j'ai 
                 obtenu une chaîne de caractères de 0 et de 1. Après cela il faut modifier une première fois l'image et baisser la valeur
-                de RVB de chaque pixels qui sont à 255 de 1. Après avoir fait cela, on parcours les pixels de l'image modifiée 1 à 1, 
+                de RVB de chaque pixel qui sont à 255 de 1. Après avoir fait cela, on parcourt les pixels de l'image modifiée 1 à 1, 
                 et on ajoute 1 à la valeur RVB du pixel si le caractère de la chaîne en binaire est égal à 1, et si le caractère est égal à 0
                 on ne le modifie pas. On obtient ainsi une image modifiée avec un message crypté, mais les différences sont invisibles à l'oeil nu. 
-                Pour décrypter le message la méthode est similaire mais nous avons besoin de l'image originale et de la modifiée, 
+                Pour décrypter le message la méthode est similaire mais nous avons besoin de l'image originale et de l'image modifiée, 
                 et on compare les pixels 1 à 1. Si la valeure de RVB est différente, c'est un 1, si non un 0. On obtient ensuite une liste 
                 d'octets qui nous permet de retrouver les caractères du message toujours selon les normes UTF-8. J'ai fini en créant un menu qui permet
-                à l'utilisateur d'utiliser plusieurs fois le programme dans la même execution si il le souhaite.
+                à l'utilisateur d'utiliser plusieurs fois le programme dans la même execution s'il le souhaite.
             </p>
             <section>
                 <img src="cryptage.png">
